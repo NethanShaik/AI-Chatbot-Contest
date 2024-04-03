@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="/static/templates/styles.css">
+</head>
+<body>
+    <nav>
+        <h1><a href="/static/mysite/templates/ChatbotHome.html" class="nav-link active" style ="color: white; text-decoration: none;"><span class="edit-icon">✎</span>Artificial Intelligence Project 2</h1> </a>
+        <div class="links">
+            <a href="/static/gd.html" class="nav-link active">Group Details</a>
+            <a href="/static/c2.html" class="nav-link active">RASA</a>
+        </div>
+    </nav>
+<main>
+  <h2>Welcome, these are our group members: </h2>
+  <ul>
+    <li>1227614    Serracin Martinez, Abel</li>
+    <li>1223466    Shah, Rahul Kirankumar</li>
+    <li>1227980    Shah, Yastee Ajaykumar</li>
+    <li>1230824    Shaik, Nethan</li>
+    <li>1229053    Sharma, Harshita</li>
+    <li>1231011    Shelat, Jeet Hiteshkumar</li>
+    <li>1224003    Singh, Jaspreet</li>
+    <li>1229084    Singh, Yuvraj</li>
+    <li>1225456    Sirasanagandla, Vamsi</li>
+    <li>1213284    Mohamed, Rilwan</li>
+</ul>
+
+</main>
+
+<script>
+  document.querySelectorAll('.nav-link.active').forEach(link => {
+    link.classList.remove('active');
+  });
+  document.querySelector('static/mysite/templates/ChatbotHome.html[href="/static/gd.html"]').classList.add('active');
+</script>
+
+<script src="/static/templates/script.js"></script>
+
+</body>
+</html>

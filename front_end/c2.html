@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chatbot UI</title>
+<link rel="stylesheet" href="/static/templates/styles.css">
+</head>
+<body>
+    <nav>
+        <h1><a href="/static/mysite/templates/ChatbotHome.html" class="nav-link active" style ="color: white; text-decoration: none;"><span class="edit-icon">✎</span>Artificial Intelligence Project 2</h1> </a>
+        <div class="links">
+            <a href="/static/gd.html" class="nav-link active">Group Details</a>
+            <a href="/static/c2.html" class="nav-link active">RASA</a>
+        </div>
+    </nav>
+    <div class="chatbots-grid">
+        <div class="chat-container">
+            <div class="chat-header-rasa">RASA</div>
+            <div class="chat-box" id="chat-box">
+                <div class="chat-message bot-message">
+                    <p>Hi!, What movies can I recommend?</p>
+                </div>
+            </div>
+            <div>
+            <input type="text" id="user-input-rasa" class="user-input-rasa" placeholder="Type your message...">
+            <button id="send-btn" class="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+<script src="/static/templates/script.js"></script>
+</body>
+</html>

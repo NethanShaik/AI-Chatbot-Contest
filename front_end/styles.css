@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.chatbots-grid {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.chat-container {
+    max-width: 100%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border: 1px solid #ccc; /* Border for the chat container */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the container */
+}
+
+.chat-header-chatgpt {
+    background-color: #74AA9C !important; /* Background color for the header */
+    color: #FFFFFF; /* Text color for the header */
+    padding: 0px; /* Padding inside the header */
+    border-top-left-radius: 5px; /* Rounded corners for top-left */
+    border-top-right-radius: 5px; /* Rounded corners for top-right */
+    margin-top: -10px; /* Negative margin to overlap with container */
+    margin-bottom: 10px; /* Margin at the bottom of the header */
+}
+
+.chat-header-rasa {
+    background-color: #BC13FE !important; /* Background color for the header */
+    color: #FFFFFF; /* Text color for the header */
+    padding: 0px; /* Padding inside the header */
+    border-top-left-radius: 5px; /* Rounded corners for top-left */
+    border-top-right-radius: 5px; /* Rounded corners for top-right */
+    margin-top: -10px; /* Negative margin to overlap with container */
+    margin-bottom: 10px; /* Margin at the bottom of the header */
+}
+
+.chat-box {
+    max-height: 0.75%;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.bot-message {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 70%;
+    float:left;
+    clear:both;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 70%;
+    text-align: right;
+    float: right;
+    clear:both;
+}
+
+.user-input-rasa {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-btn {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+nav {
+  background-color: #334464;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333; /* Dark text color */
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  color: #333; /* Dark text color */
+  text-decoration: none;
+  padding: 10px 20px; /* Add padding */
+  margin-right: 10px; /* Add space between links */
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.links a:hover {
+  background-color: #ddd; /* Lighter background color on hover */
+  color: #000; /* Change text color on hover */
+}
+
+.nav-link.active {
+  background-color: #555; /* Darker background color for active link */
+  color: #fff; /* White text color for active link */
+}
+.edit-icon {
+  font-size: 24px;
+  margin-right: 10px; /* Add space between icon and text */
+}
